@@ -1,0 +1,32 @@
+.herocard-parent{
+    width: 14.5rem;
+    height: 10.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    filter: drop-shadow(0px 0px 10px rgb(209, 209, 209));
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    margin: 4rem 1.5rem 0rem 1.5rem;
+}
+.herocard-img{
+    width: 40px;
+    height: 40px;
+}
+.herocard-text{
+    font-family: 'Radio Canada';
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 1.5rem;
+}
+.herocard-parent:hover{
+    -webkit-box-shadow: 0px 20px 20px 0px rgb(2 19 79 / 10%);
+    box-shadow: 0px 20px 20px 0px rgb(2 19 79 / 10%);
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}

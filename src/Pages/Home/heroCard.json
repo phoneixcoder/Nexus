@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "src": "./Resources/HomeHeroCard/face-recognition (1).png",
+        "text": "Face Recognition"
+    },
+
+    {
+        "id": 2,
+        "src": "./Resources/HomeHeroCard/group.svg",
+        "text": "Attendance of group made possible"
+    },
+        
+    {
+        "id": 3,
+        "src": "./Resources/HomeHeroCard/news.png",
+        "text": "Get refined news about your organization"
+    }    
+]

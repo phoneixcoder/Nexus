@@ -1,0 +1,29 @@
+.hero-section{
+    margin: 5rem 4rem 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.hero-info-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-info-heading-text{
+    margin-left: 3rem;
+    font-family: 'Radio Canada';
+    line-height: 80px;
+    font-size: 54px;
+}
+.hero-gif-img{
+    width: 30rem;
+}
