@@ -7,7 +7,7 @@ import Cursor from './Components/CustomCursor/Cursor';
 import Home from './Pages/Home/Home';
 import { AccountBox } from './Pages/accountBox';
 import NavBar from './Components/Navbar/NavBar';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 // import ParticleBackground from './Components/ParticleBack/ParticleBackground';
 
 

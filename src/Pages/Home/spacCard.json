@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "src": "./Resources/specCard/Security.jpg",
+        "heading": "100% Secure",
+        "text": "With Nexus by your side no need to worry about your privacy being hampered"
+    },
+
+    {
+        "id": 2,
+        "src": "./Resources/specCard/Detection.webp",
+        "heading": "Liveliness Detection",
+        "text": "No one except the participant can access his/her personal infomation"
+    },
+        
+    {
+        "id": 3,
+        "src": "./Resources/specCard/Detection.webp",
+        "heading": "99% Accurate",
+        "text": "Bringing AI to life we tend to make accuracy possible to the most extent"
+    }    
+]

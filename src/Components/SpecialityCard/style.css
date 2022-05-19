@@ -1,0 +1,43 @@
+.spac-parent{
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    filter: drop-shadow(0px 0px 10px rgb(209, 209, 209));
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.spac-img{
+    width: 100%;
+}
+.spac-head{
+    margin-top: 2rem;
+    font-family: 'Radio Canada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    text-align: center;
+    color: #000553;
+
+}
+.spac-text{
+    font-family: 'Radio Canada';
+    font-size: 22px;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.spac-parent:hover{
+    -webkit-box-shadow: 0px 20px 20px 0px rgb(2 19 79 / 10%);
+    box-shadow: 0px 20px 20px 0px rgb(2 19 79 / 10%);
+    /* -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px); */
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
