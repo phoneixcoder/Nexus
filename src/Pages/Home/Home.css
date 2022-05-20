@@ -40,13 +40,13 @@
 .specialities-section{
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 .spec-section-heading{
     margin-left: 3rem;
     font-family: 'Radio Canada';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 48px;
     line-height: 58px;
 }
@@ -56,4 +56,79 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.bring-head{
+    margin-top: 7rem;
+}
+.bring-head-text{
+    text-align: center;
+    font-family: 'Radio Canada';
+    font-style: normal;
+    font-weight: 549;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.htw-section{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.htw-secting-head--text{
+    text-align: center;
+    font-family: 'Radio Canada';
+    font-style: normal;
+    font-weight: 560;
+    font-size: 48px;
+    line-height: 58px;
+}
+.htw-section-hrline{
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+
+.htw-section-cards{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.htw-section-point{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.htw-section-circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: white;
+    margin-bottom: 0.5rem;
+    transition: all .3s  ease-in-out;
+}
+.htw-section-circle:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: all .3s  ease-in-out;
+}
+.htw-section-circle-num{
+    margin-top: 1rem;
+    text-align: center;
 }

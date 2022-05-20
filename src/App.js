@@ -7,6 +7,7 @@ import Cursor from './Components/CustomCursor/Cursor';
 import Home from './Pages/Home/Home';
 import { AccountBox } from './Pages/accountBox';
 import NavBar from './Components/Navbar/NavBar';
+import Footer from './Components/Footer/Footer';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import ParticleBackground from './Components/ParticleBack/ParticleBackground';
 
@@ -26,7 +27,7 @@ const App = () => {
     
     <Router>
       <Routes>
-          <Route exact path = "/" element = {<><Cursor/><Home/></>}/>
+          <Route exact path = "/" element = {<><Cursor/><Home/><Footer/></>}/>
           <Route exact path = "/login" element = {<><NavBar/><Cursor/><AppContainer><AccountBox></AccountBox></AppContainer></>}/>
       </Routes>
     </Router>

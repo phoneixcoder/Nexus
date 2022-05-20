@@ -6,6 +6,7 @@ import NavBar from "../../Components/Navbar/NavBar";
 import specialities from "./spacCard.json";
 import Slide from "../../Components/carousel";
 import SpacialityCard from "../../Components/SpecialityCard/SpacialityCard";
+import HtwCard from "../../Components/HTWCARD/HtwCard";
 const Home = () => {
   return (
     <>
@@ -24,8 +25,7 @@ const Home = () => {
           </div>
         </div>
         <div className="hero-gif">
-        <img src="./Resources/herogif.gif" alt="" className="hero-gif-img"/> 
-
+          <img src="./Resources/herogif.gif" alt="" className="hero-gif-img" />
         </div>
       </div>
       <div className="carousel-menu">
@@ -33,7 +33,6 @@ const Home = () => {
       </div>
 
       <div className="specialities-section">
-
         <h2 className="spec-section-heading">Our Specialities</h2>
 
         <div className="spec-card-section">
@@ -52,6 +51,34 @@ const Home = () => {
             heading={specialities[2].heading}
             text={specialities[2].text}
           />
+        </div>
+      </div>
+
+      <div className="bring-head">
+        <h1 className="bring-head-text">
+          "Bringing to you future of Attendance."
+        </h1>
+      </div>
+
+      <div className="htw-section">
+        <div className="htw-section-head">
+          <h1 className="htw-secting-head--text">How it Works ?</h1>
+        </div>
+        <div className="htw-section-hrline"></div>
+      
+        <div className="htw-section-cards">
+          <div className="htw-section-point">
+            <div className="htw-section-circle"><p className="htw-section-circle-num">1.</p></div>
+            <HtwCard />
+          </div>
+          <div className="htw-section-point">
+            <div className="htw-section-circle"><p className="htw-section-circle-num">2.</p></div>
+            <HtwCard />
+          </div>
+          <div className="htw-section-point">
+            <div className="htw-section-circle"><p className="htw-section-circle-num">3.</p></div>
+            <HtwCard />
+          </div>
         </div>
       </div>
     </>
